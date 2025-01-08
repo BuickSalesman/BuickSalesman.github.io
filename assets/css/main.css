@@ -3106,7 +3106,7 @@ body.is-touch .poptrox-popup .closer {
   }
 
   #header h1 br {
-    display: inline;
+    display: none;
   }
 
   #header > .inner {
@@ -3316,5 +3316,11 @@ body.is-touch .poptrox-popup .closer {
     line-height: 2.25em;
     margin-left: 0;
     padding-left: 0;
+  }
+
+  /* Icon list */
+
+  #ul li {
+    display: inline-block;
   }
 }
