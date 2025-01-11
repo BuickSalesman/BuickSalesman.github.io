@@ -11,10 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<link
+  rel="stylesheet"
+  href="assets/css/github-calendar.css"
+/>
 	</head>
 	<body class="is-preload">
-		<!-- Header -->
-	 		<header id="header">
+			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt=""/></a>
 					<h1><strong> Adam O'Donnell </strong>
@@ -56,10 +59,10 @@
 										</ul>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#three">Skills</a>
+										<a class="nav-link" href="#four">Skills</a>
 									</li>
 									<li class="nav-item">
-										<a class="nav-link" href="#four">Get in Touch</a>
+										<a class="nav-link" href="#five">Get in Touch</a>
 									</li>
 								</ul>
 							</div>
@@ -88,7 +91,7 @@
 						<h2>Projects</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/Plant-care-app.jpg" class="image fit thumb"><img src="images/thumbs/Plant-care-app.jpg" alt="" /></a>
+								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Digital Paper Warfare</h3>
 								<p>A real-time multiplayer browser game with a pen and paper aethetic and realistic physics. Draw your own obstacles, blow up nuclear reactors, and crush your enemies!</p>
 								<ul class="actions">
@@ -97,7 +100,7 @@
 						</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/Sonic-Pi.jpg" class="image fit thumb"><img src="images/thumbs/Sonic-Pi.jpg" alt="" /></a>
+								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>git-it-together</h3>
 								<p>A Git-inspired habit tracker designed to help users manage their goals by creating repositories and making commits to monitor progress. With this app, users can easily track the data within their routines and stay consistent on their self-improvement journey.</p>
 								<ul class="actions">
@@ -106,7 +109,7 @@
 						</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/LetitRip.png" class="image fit thumb"><img src="images/thumbs/LetitRip.png" alt="" /></a>
+								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Learnings Journal</h3>
 								<p>A comprehensive journal of learnings and interesting things from my software development journey. Updated multiple times weekly!
 								</p>
@@ -115,7 +118,7 @@
 						</ul>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/Plant-care-app.jpg" class="image fit thumb"><img src="images/thumbs/Plant-care-app.jpg" alt="" /></a>
+								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<h3>Creative Coding Examples</h3>
 								<p>No distractions. No looking things up. No outside help. Just creating things on the fly with code.</p>
 								<ul class="actions">
@@ -125,12 +128,25 @@
 							</article>
 					</section>
 
-					<!-- Three -->
 					<section id="three">
+						<script src="https://cdn.jsdelivr.net/npm/github-calendar/dist/github-calendar.min.js"></script>
+					
+						<div id="github-calendar" class="calendar">
+							Loading the data just for you...
+						</div>
+					
+						<script>
+							GitHubCalendar(".calendar", "BuickSalesman", {
+								global_stats: true
+							});
+						</script>
+					</section>
+					<!-- Four -->
+					<section id="four">
 						<h2>Skills</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/thumbs/resume screenshot.png" class="image fit thumb"><img src="images/thumbs/resume screenshot.png" alt="" /></a>
+								<a href="images/thumbs/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
 								<ul class="actions">	
 									<li><a href="images/Annie_Hwang_Resume.pdf" class="button">Download Resume</a></li>
 						</ul>
@@ -151,8 +167,8 @@
 					</ul>
 					</section>
 
-				<!-- Four -->
-					<section id="four">
+				<!-- Five -->
+					<section id="five">
 						<h2>Get in Touch</h2>
 						<p>My inbox is currently open for connections, collaborations, and new opportunities! </p>
 						<div class="row">
