@@ -2337,6 +2337,7 @@ ul.actions {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  flex-wrap: wrap;
   cursor: default;
   list-style: none;
   margin-left: -1em;
